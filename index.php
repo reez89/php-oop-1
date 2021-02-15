@@ -5,7 +5,8 @@ Create una classe per descrivere un entitá, assegnatele degli attributi, utiliz
 
 /** 
  * @author nicola
- * @copyright 2021
+ * 
+ *   @copyright 2021
  * 
  * 
 */
@@ -25,10 +26,10 @@ class Videogiochi{
     }
 
     function print(){
-        echo "The genre is " .$this->genre. "\n";
-        echo "The year is " .$this->year. "\n";
-        echo "The ranks is " .$this->rank. "\n";
-        echo "The sell price is " .$this->sellPrice. "\n";
+        echo "<h1>" . "The genre is " . $this->genre . "</h1>" ;
+        echo "<p>" . "The year is " . $this->year . "</p>";
+        echo "<p>" . "The ranks is " .$this->rank. "</p>";
+        echo "<p>" . "The sell price is " .$this->sellPrice. "</p>";
     }
 }
 
